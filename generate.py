@@ -1,9 +1,7 @@
-import requests
-
-r = requests.get('http://webconcepts.info/concepts/http-status-code.json')
-json = r.json()
-
-for i in json["values"]:
+import json
+with open("http-status-code.json") as json_file:
+	data = json.load(json_file)
+for i in data["values"]:
     template = "templates/" + i["value"][0:1] + "xx.html"
     with open(template) as f:
         content = f.read()

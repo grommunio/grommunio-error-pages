@@ -1,0 +1,2 @@
+#!/bin/sh
+wget http://webconcepts.info/concepts/http-status-code.json -O http-status-code.json
