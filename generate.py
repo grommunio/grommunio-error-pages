@@ -16,5 +16,6 @@ for i in data["values"]:
         new_content = new_content.replace("$ERROR_CODE", i["value"])
         new_content = new_content.replace("$ERROR_NAME", i["description"])
         new_content = new_content.replace("$ERROR_DESC", i["details"][0]["description"])
+        new_content = new_content.replace("$ERROR_DOCUMENTATION", i["details"][0]["documentation"])
         with open(i["value"] + ".html", "w") as output_file:
             output_file.write(new_content)
