@@ -1,5 +1,5 @@
 grommunio-error-pages
-Copyright (C) 2020-2022 grommunio GmbH
+Copyright (C) 2020-2023 grommunio GmbH
 
 grommunio-error-pages is distributed under Creative Commons
 Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0), or (at your option)
